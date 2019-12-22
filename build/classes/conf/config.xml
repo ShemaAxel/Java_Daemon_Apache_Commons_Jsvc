@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<properties>
+    
+    <!-- Database connection configs -->
+   
+    <entry key="db_username">axel</entry>
+    <entry key="db_password">ax3l1234</entry>
+    <entry key="host">localhost</entry>
+    <entry key="db_port">3306</entry>
+    <entry key="db_name">SMS</entry>
+    
+    <!--AfricaTalk Credentials-->
+    <entry key="api_username">tele10_i-pesa</entry>
+    <entry key="api_key">3c9360e39a2baba4acb50233ed081006a8954b07962487442819035c881b4195</entry>
+
+    <!-- Application configs -->
+    <entry key="NumberOfThreads">20</entry>
+    <entry key="SleepTime">5000</entry>
+    
+    <entry key="ConnectionTimeout">30000</entry>
+    <entry key="ReplyTimeout">90000</entry>
+    <entry key="BucketSize">1</entry>
+    <entry key="ApplicationName">SMS_Daemon</entry>
+
+
+
+</properties>
