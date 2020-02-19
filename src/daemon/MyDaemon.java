@@ -62,12 +62,12 @@ public class MyDaemon implements Daemon {
             public void run() {
 
                 while (!stopped) {
+                    try {
                     //task calling
                     infoLog.fatal("Main Daemon Started in Main");
                     //Calling the task method
                     daemon_Task();
                     infoLog.fatal("Task Ends ...");
-                    try {
                         Thread.sleep(prop.getSleepTime());
                     } catch (InterruptedException ex) {
                         fatalLog.fatal("Exception occured" + ex.getMessage());
